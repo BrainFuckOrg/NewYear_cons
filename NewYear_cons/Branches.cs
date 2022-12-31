@@ -23,6 +23,7 @@ public class Branches
                     Console.Write(leaf);
                 }
             }
+            Console.WriteLine();
         }
         Console.ResetColor();
     }
