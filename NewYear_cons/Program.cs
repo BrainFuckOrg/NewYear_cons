@@ -4,7 +4,7 @@ static class Program
 {
     public static void Main()
     {
-        Branches.PrintBranches('*',10,30);
+        Branches.PrintBranches('↑',20,10);
         Trunk.PrintTrunk(3);
         Trunk.BfOwish();
     }

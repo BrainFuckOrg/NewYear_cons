@@ -13,7 +13,7 @@ public class Trunk
                 Console.Write(" ");
             }
 
-            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine(trunk);
             Console.ResetColor();
         }
@@ -24,7 +24,7 @@ public class Trunk
     {
         String[] wishes = new String[]
         {
-            "Brain Fuck organisation wishes you to:", "write code like crazy","take part in the inhuman experiments","and have fun with coding"
+            "Brain Fuck organisation wishes you to:", "write code like crazy","take part in the inhuman experiments"," have fun with coding and mathematics","learn a lot of new things every fucking hour"
         };
         Console.ForegroundColor = ConsoleColor.Green;
         Int32 center = Console.WindowWidth / 2;

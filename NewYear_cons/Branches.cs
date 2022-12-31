@@ -21,6 +21,7 @@ public class Branches
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.Write(leaf);
+                    //Console.Write(rnd.Next(0,2)==0?'↑':'↓');
                 }
             }
             Console.WriteLine();
