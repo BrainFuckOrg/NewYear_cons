@@ -8,7 +8,7 @@ public class Trunk
         Int32 center = Console.WindowWidth / 2;
         for (Int32 j = 0; j < height; j++)
         {
-            for (Int32 i = 0; i < center; i++)
+            for (Int32 i = 0; i < center-trunk.Length/2; i++)
             {
                 Console.Write(" ");
             }
@@ -30,7 +30,7 @@ public class Trunk
         Int32 center = Console.WindowWidth / 2;
         foreach (var wish in wishes)
         {
-            for (Int32 i = 0; i < center; i++)
+            for (Int32 i = 0; i < center-wish.Length/2; i++)
             {
                 Console.Write(" ");
             }
